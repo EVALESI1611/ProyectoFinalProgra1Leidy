@@ -1,7 +1,10 @@
 public class Holamundo {
-	public static void main(String[] args) {
-		System.out.println("Hola Mundo");
-		System.out.println("Hola Soy Leidy");
 
+	public static void printName(String name){
+		System.out.println(name);
+	}
+
+	public void printName2(String name){
+		System.out.println(name);
 	}
 }
